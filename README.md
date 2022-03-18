@@ -10,7 +10,9 @@
    - Run ```docker-compose down```
    - Run ```docker-compose up -d```
 
-Chat members amount is requested each day. To look at plot, go to ```*your server ip*:8000/stats/population/```
+Chat members amount is requested each day. To look at plot, go to ```*your server ip*:8000/stats/population/```. It will look like this:
 
-Db is backuped each week. Backups will be stored in ```backups``` folder in your local project folder.
+![Example](example.png)
+
+Db is backuped each week. Backups are stored in ```backups``` folder in your local project folder.
 ```logs``` folder will have telegram bot logs.
