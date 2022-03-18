@@ -13,7 +13,7 @@ from db_models.base import metadata, BaseModel
 from db_models.population import Population
 from db_service import DbService
 
-logger = logging.getLogger(__name__)
+logger = logging.getLogger("scheduler")
 
 
 class MembersGatherer:
@@ -22,6 +22,7 @@ class MembersGatherer:
         self.telebot = telebot
         try:
             self.db_service = self.setup_db()
+            logger.info("Scheduer prepared")
         except Exception as e:
             logger.error(e)
             raise e

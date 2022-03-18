@@ -6,7 +6,7 @@ import logging.config
 from schedule_task import start_scheduler
 
 logging.config.fileConfig('logging.conf', disable_existing_loggers=False)
-logger = logging.getLogger(__name__)
+logger = logging.getLogger("main")
 
 
 class Bot:
@@ -18,10 +18,15 @@ class Bot:
         except:
             self.chat_id = None
             logger.warning("Chat id is not set.")
+        logger.info("Bot created")
 
         @self.bot.message_handler(commands=["get_id"])
         def get_id(m):
-            self.bot.send_message(m.chat.id, f"Chat id: {m.chat.id}")
+            try:
+                self.bot.send_message(m.chat.id, f"Chat id: {m.chat.id}")
+                logger.info("Requested chat id")
+            except Exception as e:
+                logger.error(e)
 
         @self.bot.message_handler(content_types=['new_chat_members'])
         def delete_join_message(m):
@@ -55,6 +60,7 @@ class Bot:
             return None
         try:
             amount = self.bot.get_chat_member_count(self.chat_id)
+            logger.info(f"Requested members count - {amount}")
         except Exception as e:
             logger.error(e)
             return None
