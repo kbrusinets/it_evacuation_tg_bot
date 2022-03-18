@@ -1,0 +1,9 @@
+FROM python:3.9
+
+COPY ./tg_bot /tg_bot
+
+WORKDIR "/tg_bot"
+
+RUN pip install -r requirements.txt
+
+RUN apt update && apt -y install postgresql-client

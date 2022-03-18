@@ -1,0 +1,15 @@
+FROM python:3.8
+
+ENV PYTHONUNBUFFERED=1
+
+EXPOSE 8000
+
+COPY ./djangoProject /djangoProject
+
+WORKDIR "/djangoProject"
+
+RUN pip install -r requirements.txt
+
+RUN var1=$(curl ifconfig.me) && sed -i "s/\(ALLOWED_HOSTS = \)\(.*\)/\1['$var1']/g" djangoProject/settings.py
+
+RUN apt update && apt -y install postgresql-client

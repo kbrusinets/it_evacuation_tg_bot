@@ -1,0 +1,523 @@
+2022-03-14 02:17:42,611 [__main__] [WARNI]  Chat id is not set.
+2022-03-14 02:17:48,690 [schedule_task] [ERROR]  (psycopg2.OperationalError) connection to server at "127.0.0.1", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+2022-03-15 01:26:59,012 [__main__] [WARNI]  Chat id is not set.
+2022-03-15 01:27:05,078 [schedule_task] [ERROR]  (psycopg2.OperationalError) connection to server at "127.0.0.1", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+2022-03-15 04:55:28,948 [__main__] [WARNI]  Chat id is not set.
+2022-03-15 04:55:28,949 [schedule_task] [ERROR]  No module named 'psycopg2'
+2022-03-15 04:55:54,185 [__main__] [WARNI]  Chat id is not set.
+2022-03-15 04:55:54,201 [schedule_task] [ERROR]  (psycopg2.OperationalError) could not translate host name "None" to address: Temporary failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+2022-03-15 04:58:04,572 [schedule_task] [ERROR]  (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "tg_bot"
+
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+2022-03-15 04:58:59,352 [schedule_task] [ERROR]  (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "tg_bot"
+
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+2022-03-15 05:05:18,222 [schedule_task] [ERROR]  (psycopg2.errors.InsufficientPrivilege) permission denied for database tg_bot
+
+[SQL: CREATE SCHEMA tg_bot]
+(Background on this error at: https://sqlalche.me/e/14/f405)
+2022-03-15 22:17:27,015 [urllib3.connectionpool] [DEBUG]  Starting new HTTPS connection (1): api.telegram.org:443
+2022-03-15 22:17:27,141 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getUpdates?offset=1&timeout=20 HTTP/1.1" 200 4215
+2022-03-15 22:17:27,177 [urllib3.connectionpool] [DEBUG]  Starting new HTTPS connection (1): api.telegram.org:443
+2022-03-15 22:17:27,181 [urllib3.connectionpool] [DEBUG]  Starting new HTTPS connection (1): api.telegram.org:443
+2022-03-15 22:17:27,365 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "POST /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/sendMessage?chat_id=958693596&text=Chat_id%3A+958693596 HTTP/1.1" 200 275
+2022-03-15 22:17:27,434 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "POST /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/sendMessage?chat_id=-737826631&text=Chat_id%3A+-737826631 HTTP/1.1" 200 286
+2022-03-15 22:17:27,510 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "POST /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/sendMessage?chat_id=-737826631&text=%D0%92%D1%8B+%D0%BD%D0%B0%D0%BF%D0%B8%D1%81%D0%B0%D0%BB%D0%B8%3A+%2Fstart HTTP/1.1" 200 395
+2022-03-15 22:17:27,991 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "POST /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/sendMessage?chat_id=958693596&text=Chat_id%3A+958693596 HTTP/1.1" 200 275
+2022-03-15 22:17:28,108 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "POST /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/sendMessage?chat_id=958693596&text=%D0%92%D1%8B+%D0%BD%D0%B0%D0%BF%D0%B8%D1%81%D0%B0%D0%BB%D0%B8%3A+asdasd HTTP/1.1" 200 326
+2022-03-15 22:17:28,708 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "POST /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/sendMessage?chat_id=958693596&text=%D0%92%D1%8B+%D0%BD%D0%B0%D0%BF%D0%B8%D1%81%D0%B0%D0%BB%D0%B8%3A+jashjdhas HTTP/1.1" 200 329
+2022-03-15 22:17:28,734 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "POST /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/sendMessage?chat_id=958693596&text=Chat_id%3A+958693596 HTTP/1.1" 200 275
+2022-03-15 22:17:28,822 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "POST /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/sendMessage?chat_id=958693596&text=Chat_id%3A+958693596 HTTP/1.1" 200 275
+2022-03-15 22:17:28,940 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "POST /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/sendMessage?chat_id=238077889&text=%D0%92%D1%8B+%D0%BD%D0%B0%D0%BF%D0%B8%D1%81%D0%B0%D0%BB%D0%B8%3A+%2Fstart HTTP/1.1" 200 397
+2022-03-15 22:17:29,104 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "POST /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/sendMessage?chat_id=387072176&text=%D0%92%D1%8B+%D0%BD%D0%B0%D0%BF%D0%B8%D1%81%D0%B0%D0%BB%D0%B8%3A+%2Fstart HTTP/1.1" 200 388
+2022-03-15 22:17:29,230 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "POST /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/sendMessage?chat_id=265358626&text=%D0%92%D1%8B+%D0%BD%D0%B0%D0%BF%D0%B8%D1%81%D0%B0%D0%BB%D0%B8%3A+%2Fstart HTTP/1.1" 200 476
+2022-03-15 22:17:29,442 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "POST /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/sendMessage?chat_id=958693596&text=Chat_id%3A+958693596 HTTP/1.1" 200 275
+2022-03-15 22:17:47,244 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getUpdates?offset=37839130&timeout=20 HTTP/1.1" 200 23
+2022-03-15 22:18:07,308 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getUpdates?offset=37839130&timeout=20 HTTP/1.1" 200 23
+2022-03-15 22:18:27,384 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getUpdates?offset=37839130&timeout=20 HTTP/1.1" 200 23
+2022-03-15 22:18:35,765 [urllib3.connectionpool] [DEBUG]  Starting new HTTPS connection (1): api.telegram.org:443
+2022-03-15 22:18:55,956 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getUpdates?offset=1&timeout=20 HTTP/1.1" 200 23
+2022-03-15 22:19:16,025 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getUpdates?offset=1&timeout=20 HTTP/1.1" 200 23
+2022-03-15 22:19:36,091 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getUpdates?offset=1&timeout=20 HTTP/1.1" 200 23
+2022-03-15 22:19:56,166 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getUpdates?offset=1&timeout=20 HTTP/1.1" 200 23
+2022-03-15 22:20:16,237 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getUpdates?offset=1&timeout=20 HTTP/1.1" 200 23
+2022-03-15 22:20:36,297 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getUpdates?offset=1&timeout=20 HTTP/1.1" 200 23
+2022-03-15 22:20:56,377 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getUpdates?offset=1&timeout=20 HTTP/1.1" 200 23
+2022-03-15 22:21:06,127 [urllib3.connectionpool] [DEBUG]  Starting new HTTPS connection (1): api.telegram.org:443
+2022-03-15 22:21:26,278 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getUpdates?offset=1&timeout=20 HTTP/1.1" 200 23
+2022-03-15 22:21:46,349 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getUpdates?offset=1&timeout=20 HTTP/1.1" 200 23
+2022-03-15 22:22:06,393 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getUpdates?offset=1&timeout=20 HTTP/1.1" 200 23
+2022-03-15 22:22:26,433 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getUpdates?offset=1&timeout=20 HTTP/1.1" 200 23
+2022-03-15 22:22:46,471 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getUpdates?offset=1&timeout=20 HTTP/1.1" 200 23
+2022-03-15 22:23:06,511 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getUpdates?offset=1&timeout=20 HTTP/1.1" 200 23
+2022-03-15 22:23:26,600 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getUpdates?offset=1&timeout=20 HTTP/1.1" 200 23
+2022-03-15 22:23:57,357 [urllib3.connectionpool] [DEBUG]  Starting new HTTPS connection (1): api.telegram.org:443
+2022-03-15 22:23:57,533 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getUpdates?offset=1&timeout=20 HTTP/1.1" 200 367
+2022-03-15 22:23:57,539 [urllib3.connectionpool] [DEBUG]  Starting new HTTPS connection (1): api.telegram.org:443
+2022-03-15 22:23:57,696 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "POST /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/sendMessage?chat_id=387072176&text=%D0%92%D1%8B+%D0%BD%D0%B0%D0%BF%D0%B8%D1%81%D0%B0%D0%BB%D0%B8%3A+%2Fstart HTTP/1.1" 200 388
+2022-03-15 22:24:02,386 [urllib3.connectionpool] [DEBUG]  Starting new HTTPS connection (1): api.telegram.org:443
+2022-03-15 22:24:02,512 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getChatMemberCount?chat_id=958693596 HTTP/1.1" 200 22
+2022-03-15 22:24:07,589 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getChatMemberCount?chat_id=958693596 HTTP/1.1" 200 22
+2022-03-15 22:24:12,644 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getChatMemberCount?chat_id=958693596 HTTP/1.1" 200 22
+2022-03-15 22:24:17,596 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getUpdates?offset=37839131&timeout=20 HTTP/1.1" 200 23
+2022-03-15 22:24:17,694 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getChatMemberCount?chat_id=958693596 HTTP/1.1" 200 22
+2022-03-15 22:24:22,744 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getChatMemberCount?chat_id=958693596 HTTP/1.1" 200 22
+2022-03-15 22:24:27,801 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getChatMemberCount?chat_id=958693596 HTTP/1.1" 200 22
+2022-03-15 22:24:32,858 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getChatMemberCount?chat_id=958693596 HTTP/1.1" 200 22
+2022-03-15 22:24:37,650 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getUpdates?offset=37839131&timeout=20 HTTP/1.1" 200 23
+2022-03-15 22:24:37,916 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getChatMemberCount?chat_id=958693596 HTTP/1.1" 200 22
+2022-03-15 22:24:42,982 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getChatMemberCount?chat_id=958693596 HTTP/1.1" 200 22
+2022-03-15 22:24:48,046 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getChatMemberCount?chat_id=958693596 HTTP/1.1" 200 22
+2022-03-15 22:24:53,102 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getChatMemberCount?chat_id=958693596 HTTP/1.1" 200 22
+2022-03-18 00:23:21,033 [urllib3.connectionpool] [DEBUG]  Starting new HTTPS connection (1): api.telegram.org:443
+2022-03-18 00:23:33,145 [schedule_task] [ERROR]  (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+2022-03-18 00:23:41,427 [urllib3.connectionpool] [DEBUG]  Starting new HTTPS connection (1): api.telegram.org:443
+2022-03-18 00:23:46,880 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getUpdates?offset=1&timeout=20 HTTP/1.1" 200 373
+2022-03-18 00:23:46,888 [urllib3.connectionpool] [DEBUG]  Starting new HTTPS connection (1): api.telegram.org:443
+2022-03-18 00:23:47,112 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "POST /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/sendMessage?chat_id=-737826631&text=Chat+id%3A+-737826631 HTTP/1.1" 200 287
+2022-03-18 00:24:08,747 [urllib3.connectionpool] [DEBUG]  Starting new HTTPS connection (1): api.telegram.org:443
+2022-03-18 00:24:08,890 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getUpdates?offset=1&timeout=20 HTTP/1.1" 200 302
+2022-03-18 00:24:15,208 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getUpdates?offset=37839195&timeout=20 HTTP/1.1" 200 375
+2022-03-18 00:24:25,628 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getUpdates?offset=37839196&timeout=20 HTTP/1.1" 200 340
+2022-03-18 00:24:31,725 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getUpdates?offset=37839197&timeout=20 HTTP/1.1" 200 421
+2022-03-18 00:24:36,328 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getUpdates?offset=37839198&timeout=20 HTTP/1.1" 200 320
+2022-03-18 00:24:39,936 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getUpdates?offset=37839199&timeout=20 HTTP/1.1" 200 392
+2022-03-18 00:24:44,778 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getUpdates?offset=37839200&timeout=20 HTTP/1.1" 200 540
+2022-03-18 00:25:04,828 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getUpdates?offset=37839201&timeout=20 HTTP/1.1" 200 23
+2022-03-18 00:25:09,208 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getUpdates?offset=37839201&timeout=20 HTTP/1.1" 200 369
+2022-03-18 00:25:13,199 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getUpdates?offset=37839202&timeout=20 HTTP/1.1" 200 302
+2022-03-18 00:25:23,537 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getUpdates?offset=37839203&timeout=20 HTTP/1.1" 200 326
+2022-03-18 00:25:27,318 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getUpdates?offset=37839204&timeout=20 HTTP/1.1" 200 510
+2022-03-18 00:25:34,589 [urllib3.connectionpool] [DEBUG]  Starting new HTTPS connection (1): api.telegram.org:443
+2022-03-18 00:25:34,723 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getMe HTTP/1.1" 200 206
+2022-03-18 00:25:34,767 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "POST /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/deleteMessage?chat_id=-737826631&message_id=155 HTTP/1.1" 400 96
+2022-03-18 00:25:34,880 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "POST /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/sendMessage?chat_id=-737826631&text=Please+make+me+an+admin+in+order+for+me+to+remove+the+join+and+leave+messages+on+this+group%21 HTTP/1.1" 200 360
+2022-03-18 00:25:43,157 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getUpdates?offset=37839205&timeout=20 HTTP/1.1" 200 619
+2022-03-18 00:25:47,043 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getUpdates?offset=37839206&timeout=20 HTTP/1.1" 200 302
+2022-03-18 00:25:53,266 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getUpdates?offset=37839207&timeout=20 HTTP/1.1" 200 371
+2022-03-18 00:26:02,245 [urllib3.connectionpool] [DEBUG]  Starting new HTTPS connection (1): api.telegram.org:443
+2022-03-18 00:26:02,371 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "POST /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/deleteMessage?chat_id=-737826631&message_id=157 HTTP/1.1" 400 96
+2022-03-18 00:26:06,232 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getUpdates?offset=37839208&timeout=20 HTTP/1.1" 200 305
+2022-03-18 00:26:14,099 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getUpdates?offset=37839209&timeout=20 HTTP/1.1" 200 304
+2022-03-18 00:26:17,264 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getUpdates?offset=37839210&timeout=20 HTTP/1.1" 200 303
+2022-03-18 00:26:25,036 [TeleBot] [ERROR]  Infinity polling exception: 'NoneType' object has no attribute 'id'
+2022-03-18 00:26:25,038 [TeleBot] [ERROR]  Exception traceback:
+Traceback (most recent call last):
+  File "C:/Users/Kirill.Brusinets/PycharmProjects/tg/tg_bot/tg_bot/main.py", line 30, in delete_join_message
+    self.bot.delete_message(m.chat.id, m.message_id)
+  File "C:\Users\Kirill.Brusinets\PycharmProjects\tg\tg_bot\tg_bot\venv\lib\site-packages\telebot\__init__.py", line 1038, in delete_message
+    return apihelper.delete_message(self.token, chat_id, message_id, timeout)
+  File "C:\Users\Kirill.Brusinets\PycharmProjects\tg\tg_bot\tg_bot\venv\lib\site-packages\telebot\apihelper.py", line 1269, in delete_message
+    return _make_request(token, method_url, params=payload, method='post')
+  File "C:\Users\Kirill.Brusinets\PycharmProjects\tg\tg_bot\tg_bot\venv\lib\site-packages\telebot\apihelper.py", line 158, in _make_request
+    json_result = _check_result(method_name, result)
+  File "C:\Users\Kirill.Brusinets\PycharmProjects\tg\tg_bot\tg_bot\venv\lib\site-packages\telebot\apihelper.py", line 185, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message can't be deleted for everyone
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Kirill.Brusinets\PycharmProjects\tg\tg_bot\tg_bot\venv\lib\site-packages\telebot\__init__.py", line 611, in infinity_polling
+    self.polling(none_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\Kirill.Brusinets\PycharmProjects\tg\tg_bot\tg_bot\venv\lib\site-packages\telebot\__init__.py", line 658, in polling
+    self.__threaded_polling(non_stop, interval, timeout, long_polling_timeout, allowed_updates)
+  File "C:\Users\Kirill.Brusinets\PycharmProjects\tg\tg_bot\tg_bot\venv\lib\site-packages\telebot\__init__.py", line 720, in __threaded_polling
+    raise e
+  File "C:\Users\Kirill.Brusinets\PycharmProjects\tg\tg_bot\tg_bot\venv\lib\site-packages\telebot\__init__.py", line 680, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\Kirill.Brusinets\PycharmProjects\tg\tg_bot\tg_bot\venv\lib\site-packages\telebot\util.py", line 135, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\Kirill.Brusinets\PycharmProjects\tg\tg_bot\tg_bot\venv\lib\site-packages\telebot\util.py", line 87, in run
+    task(*args, **kwargs)
+  File "C:/Users/Kirill.Brusinets/PycharmProjects/tg/tg_bot/tg_bot/main.py", line 32, in delete_join_message
+    if m.new_chat_member.id != self.bot.get_me().id:
+AttributeError: 'NoneType' object has no attribute 'id'
+
+2022-03-18 00:26:28,047 [urllib3.connectionpool] [DEBUG]  Starting new HTTPS connection (1): api.telegram.org:443
+2022-03-18 00:26:28,197 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getUpdates?offset=37839211&timeout=20 HTTP/1.1" 409 143
+2022-03-18 00:26:29,876 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getUpdates?offset=37839211&timeout=20 HTTP/1.1" 200 334
+2022-03-18 00:26:32,437 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getUpdates?offset=37839212&timeout=20 HTTP/1.1" 200 326
+2022-03-18 00:26:41,335 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getUpdates?offset=37839213&timeout=20 HTTP/1.1" 200 314
+2022-03-18 00:26:41,549 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getUpdates?offset=37839214&timeout=20 HTTP/1.1" 200 333
+2022-03-18 00:26:46,661 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getUpdates?offset=37839215&timeout=20 HTTP/1.1" 200 344
+2022-03-18 00:26:51,207 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getUpdates?offset=37839216&timeout=20 HTTP/1.1" 200 344
+2022-03-18 00:26:54,708 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getUpdates?offset=37839217&timeout=20 HTTP/1.1" 200 344
+2022-03-18 00:26:57,954 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getUpdates?offset=37839218&timeout=20 HTTP/1.1" 200 339
+2022-03-18 00:26:59,187 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getUpdates?offset=37839219&timeout=20 HTTP/1.1" 200 362
+2022-03-18 00:26:59,736 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getUpdates?offset=37839220&timeout=20 HTTP/1.1" 200 333
+2022-03-18 00:27:05,644 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getUpdates?offset=37839221&timeout=20 HTTP/1.1" 200 334
+2022-03-18 00:27:08,723 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getUpdates?offset=37839222&timeout=20 HTTP/1.1" 200 344
+2022-03-18 00:27:09,156 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getUpdates?offset=37839223&timeout=20 HTTP/1.1" 200 301
+2022-03-18 00:27:28,016 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getUpdates?offset=37839224&timeout=20 HTTP/1.1" 200 328
+2022-03-18 00:27:37,589 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getUpdates?offset=37839225&timeout=20 HTTP/1.1" 200 513
+2022-03-18 00:27:42,267 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getUpdates?offset=37839226&timeout=20 HTTP/1.1" 200 521
+2022-03-18 00:27:42,779 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getUpdates?offset=37839227&timeout=20 HTTP/1.1" 200 315
+2022-03-18 00:27:45,795 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getUpdates?offset=37839228&timeout=20 HTTP/1.1" 200 327
+2022-03-18 00:27:49,313 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getMe HTTP/1.1" 200 206
+2022-03-18 00:27:52,506 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "POST /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/deleteMessage?chat_id=-737826631&message_id=178 HTTP/1.1" 400 96
+2022-03-18 00:28:04,863 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "POST /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/sendMessage?chat_id=-737826631&text=Please+make+me+an+admin+in+order+for+me+to+remove+the+join+and+leave+messages+on+this+group%21 HTTP/1.1" 200 360
+2022-03-18 00:28:05,893 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getUpdates?offset=37839229&timeout=20 HTTP/1.1" 200 23
+2022-03-18 00:28:17,219 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getUpdates?offset=37839229&timeout=20 HTTP/1.1" 200 630
+2022-03-18 00:28:23,182 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getUpdates?offset=37839230&timeout=20 HTTP/1.1" 200 322
+2022-03-18 00:28:29,999 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getMe HTTP/1.1" 200 206
+2022-03-18 00:28:43,226 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getUpdates?offset=37839231&timeout=20 HTTP/1.1" 200 23
+2022-03-18 00:28:52,507 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getMe HTTP/1.1" 200 206
+2022-03-18 00:28:52,682 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getUpdates?offset=37839231&timeout=20 HTTP/1.1" 200 300
+2022-03-18 00:29:02,060 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getMe HTTP/1.1" 200 206
+2022-03-18 00:29:12,724 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getUpdates?offset=37839232&timeout=20 HTTP/1.1" 200 23
+2022-03-18 00:29:32,780 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getUpdates?offset=37839232&timeout=20 HTTP/1.1" 200 23
+2022-03-18 00:29:55,370 [urllib3.connectionpool] [DEBUG]  Starting new HTTPS connection (1): api.telegram.org:443
+2022-03-18 00:30:07,877 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getUpdates?offset=1&timeout=20 HTTP/1.1" 200 470
+2022-03-18 00:30:12,385 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getUpdates?offset=37839233&timeout=20 HTTP/1.1" 200 322
+2022-03-18 00:30:12,933 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getUpdates?offset=37839234&timeout=20 HTTP/1.1" 200 521
+2022-03-18 00:30:13,043 [urllib3.connectionpool] [DEBUG]  Starting new HTTPS connection (1): api.telegram.org:443
+2022-03-18 00:30:13,173 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getMe HTTP/1.1" 200 206
+2022-03-18 00:30:13,214 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getMe HTTP/1.1" 200 206
+2022-03-18 00:30:13,266 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getMe HTTP/1.1" 200 206
+2022-03-18 00:30:13,307 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getMe HTTP/1.1" 200 206
+2022-03-18 00:30:20,153 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getMe HTTP/1.1" 200 206
+2022-03-18 00:30:20,204 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getMe HTTP/1.1" 200 206
+2022-03-18 00:30:20,243 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getMe HTTP/1.1" 200 206
+2022-03-18 00:30:20,296 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getMe HTTP/1.1" 200 206
+2022-03-18 00:30:20,334 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getMe HTTP/1.1" 200 206
+2022-03-18 00:30:21,419 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getMe HTTP/1.1" 200 206
+2022-03-18 00:30:21,458 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getMe HTTP/1.1" 200 206
+2022-03-18 00:30:21,508 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getMe HTTP/1.1" 200 206
+2022-03-18 00:30:21,547 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getMe HTTP/1.1" 200 206
+2022-03-18 00:30:22,004 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "POST /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/deleteMessage?chat_id=-737826631&message_id=187 HTTP/1.1" 400 96
+2022-03-18 00:30:22,053 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getMe HTTP/1.1" 200 206
+2022-03-18 00:30:22,091 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getMe HTTP/1.1" 200 206
+2022-03-18 00:30:22,140 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getMe HTTP/1.1" 200 206
+2022-03-18 00:30:22,179 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getMe HTTP/1.1" 200 206
+2022-03-18 00:30:22,632 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getMe HTTP/1.1" 200 206
+2022-03-18 00:30:22,671 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getMe HTTP/1.1" 200 206
+2022-03-18 00:30:22,721 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getMe HTTP/1.1" 200 206
+2022-03-18 00:30:22,767 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getMe HTTP/1.1" 200 206
+2022-03-18 00:30:23,421 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getMe HTTP/1.1" 200 206
+2022-03-18 00:30:23,463 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getMe HTTP/1.1" 200 206
+2022-03-18 00:30:23,515 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getMe HTTP/1.1" 200 206
+2022-03-18 00:30:23,563 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getMe HTTP/1.1" 200 206
+2022-03-18 00:30:23,897 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getMe HTTP/1.1" 200 206
+2022-03-18 00:30:23,936 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getMe HTTP/1.1" 200 206
+2022-03-18 00:30:23,988 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getMe HTTP/1.1" 200 206
+2022-03-18 00:30:24,027 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getMe HTTP/1.1" 200 206
+2022-03-18 00:30:24,535 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "POST /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/sendMessage?chat_id=-737826631&text=Please+make+me+an+admin+in+order+for+me+to+remove+the+join+and+leave+messages+on+this+group%21 HTTP/1.1" 200 360
+2022-03-18 00:30:32,983 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getUpdates?offset=37839235&timeout=20 HTTP/1.1" 200 23
+2022-03-18 00:30:46,889 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getUpdates?offset=37839235&timeout=20 HTTP/1.1" 200 630
+2022-03-18 00:30:49,600 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "POST /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/deleteMessage?chat_id=-737826631&message_id=189 HTTP/1.1" 400 96
+2022-03-18 00:30:53,541 [TeleBot] [ERROR]  Infinity polling exception: 'NoneType' object is not subscriptable
+2022-03-18 00:30:53,543 [TeleBot] [ERROR]  Exception traceback:
+Traceback (most recent call last):
+  File "C:/Users/Kirill.Brusinets/PycharmProjects/tg/tg_bot/tg_bot/main.py", line 30, in delete_join_message
+    self.bot.delete_message(m.chat.id, m.message_id)
+  File "C:\Users\Kirill.Brusinets\PycharmProjects\tg\tg_bot\tg_bot\venv\lib\site-packages\telebot\__init__.py", line 1038, in delete_message
+    return apihelper.delete_message(self.token, chat_id, message_id, timeout)
+  File "C:\Users\Kirill.Brusinets\PycharmProjects\tg\tg_bot\tg_bot\venv\lib\site-packages\telebot\apihelper.py", line 1269, in delete_message
+    return _make_request(token, method_url, params=payload, method='post')
+  File "C:\Users\Kirill.Brusinets\PycharmProjects\tg\tg_bot\tg_bot\venv\lib\site-packages\telebot\apihelper.py", line 158, in _make_request
+    json_result = _check_result(method_name, result)
+  File "C:\Users\Kirill.Brusinets\PycharmProjects\tg\tg_bot\tg_bot\venv\lib\site-packages\telebot\apihelper.py", line 185, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message can't be deleted for everyone
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Kirill.Brusinets\PycharmProjects\tg\tg_bot\tg_bot\venv\lib\site-packages\telebot\__init__.py", line 611, in infinity_polling
+    self.polling(none_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\Kirill.Brusinets\PycharmProjects\tg\tg_bot\tg_bot\venv\lib\site-packages\telebot\__init__.py", line 658, in polling
+    self.__threaded_polling(non_stop, interval, timeout, long_polling_timeout, allowed_updates)
+  File "C:\Users\Kirill.Brusinets\PycharmProjects\tg\tg_bot\tg_bot\venv\lib\site-packages\telebot\__init__.py", line 720, in __threaded_polling
+    raise e
+  File "C:\Users\Kirill.Brusinets\PycharmProjects\tg\tg_bot\tg_bot\venv\lib\site-packages\telebot\__init__.py", line 680, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\Kirill.Brusinets\PycharmProjects\tg\tg_bot\tg_bot\venv\lib\site-packages\telebot\util.py", line 135, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\Kirill.Brusinets\PycharmProjects\tg\tg_bot\tg_bot\venv\lib\site-packages\telebot\util.py", line 87, in run
+    task(*args, **kwargs)
+  File "C:/Users/Kirill.Brusinets/PycharmProjects/tg/tg_bot/tg_bot/main.py", line 32, in delete_join_message
+    if m.new_chat_member[0].id != self.bot.get_me().id:
+TypeError: 'NoneType' object is not subscriptable
+
+2022-03-18 00:30:56,552 [urllib3.connectionpool] [DEBUG]  Starting new HTTPS connection (1): api.telegram.org:443
+2022-03-18 00:30:56,686 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getUpdates?offset=37839236&timeout=20 HTTP/1.1" 409 143
+2022-03-18 00:31:12,307 [urllib3.connectionpool] [DEBUG]  Starting new HTTPS connection (1): api.telegram.org:443
+2022-03-18 00:31:26,405 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getUpdates?offset=1&timeout=20 HTTP/1.1" 200 521
+2022-03-18 00:31:26,496 [urllib3.connectionpool] [DEBUG]  Starting new HTTPS connection (1): api.telegram.org:443
+2022-03-18 00:31:26,626 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getMe HTTP/1.1" 200 206
+2022-03-18 00:31:26,664 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getMe HTTP/1.1" 200 206
+2022-03-18 00:31:26,714 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getMe HTTP/1.1" 200 206
+2022-03-18 00:31:26,752 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getMe HTTP/1.1" 200 206
+2022-03-18 00:31:31,473 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getMe HTTP/1.1" 200 206
+2022-03-18 00:31:31,513 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "POST /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/deleteMessage?chat_id=-737826631&message_id=190 HTTP/1.1" 400 96
+2022-03-18 00:31:31,573 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "POST /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/sendMessage?chat_id=-737826631&text=Please+make+me+an+admin+in+order+for+me+to+remove+the+join+and+leave+messages+on+this+group%21 HTTP/1.1" 200 360
+2022-03-18 00:31:40,409 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getUpdates?offset=37839237&timeout=20 HTTP/1.1" 200 630
+2022-03-18 00:31:40,460 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getMe HTTP/1.1" 200 206
+2022-03-18 00:31:40,499 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getMe HTTP/1.1" 200 206
+2022-03-18 00:31:40,585 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getMe HTTP/1.1" 200 206
+2022-03-18 00:31:40,625 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getMe HTTP/1.1" 200 206
+2022-03-18 00:31:43,507 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getMe HTTP/1.1" 200 206
+2022-03-18 00:31:43,544 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getMe HTTP/1.1" 200 206
+2022-03-18 00:31:43,594 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getMe HTTP/1.1" 200 206
+2022-03-18 00:31:43,630 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getMe HTTP/1.1" 200 206
+2022-03-18 00:31:44,489 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "POST /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/deleteMessage?chat_id=-737826631&message_id=192 HTTP/1.1" 400 96
+2022-03-18 00:31:44,537 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getMe HTTP/1.1" 200 206
+2022-03-18 00:31:44,576 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getMe HTTP/1.1" 200 206
+2022-03-18 00:31:44,626 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getMe HTTP/1.1" 200 206
+2022-03-18 00:31:44,667 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getMe HTTP/1.1" 200 206
+2022-03-18 00:31:45,334 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getMe HTTP/1.1" 200 206
+2022-03-18 00:31:45,372 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getMe HTTP/1.1" 200 206
+2022-03-18 00:31:45,422 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getMe HTTP/1.1" 200 206
+2022-03-18 00:31:45,460 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getMe HTTP/1.1" 200 206
+2022-03-18 00:31:45,845 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getMe HTTP/1.1" 200 206
+2022-03-18 00:31:45,895 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getMe HTTP/1.1" 200 206
+2022-03-18 00:31:45,933 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getMe HTTP/1.1" 200 206
+2022-03-18 00:31:45,986 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getMe HTTP/1.1" 200 206
+2022-03-18 00:31:46,025 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getMe HTTP/1.1" 200 206
+2022-03-18 00:31:46,687 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getMe HTTP/1.1" 200 206
+2022-03-18 00:31:46,724 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getMe HTTP/1.1" 200 206
+2022-03-18 00:31:46,774 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getMe HTTP/1.1" 200 206
+2022-03-18 00:31:46,812 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getMe HTTP/1.1" 200 206
+2022-03-18 00:31:47,223 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getMe HTTP/1.1" 200 206
+2022-03-18 00:31:47,262 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getMe HTTP/1.1" 200 206
+2022-03-18 00:31:47,313 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getMe HTTP/1.1" 200 206
+2022-03-18 00:31:47,350 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getMe HTTP/1.1" 200 206
+2022-03-18 00:31:47,808 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "POST /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/sendMessage?chat_id=-737826631&text=Please+make+me+an+admin+in+order+for+me+to+remove+the+join+and+leave+messages+on+this+group%21 HTTP/1.1" 200 360
+2022-03-18 00:31:49,797 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getUpdates?offset=37839238&timeout=20 HTTP/1.1" 200 364
+2022-03-18 00:32:03,478 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getUpdates?offset=37839239&timeout=20 HTTP/1.1" 200 314
+2022-03-18 00:32:15,676 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getUpdates?offset=37839240&timeout=20 HTTP/1.1" 200 313
+2022-03-18 00:32:19,297 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getUpdates?offset=37839241&timeout=20 HTTP/1.1" 200 363
+2022-03-18 00:32:20,858 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getUpdates?offset=37839242&timeout=20 HTTP/1.1" 200 302
+2022-03-18 00:32:23,437 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getUpdates?offset=37839243&timeout=20 HTTP/1.1" 200 317
+2022-03-18 00:32:25,832 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getUpdates?offset=37839244&timeout=20 HTTP/1.1" 200 342
+2022-03-18 00:32:28,150 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getUpdates?offset=37839245&timeout=20 HTTP/1.1" 200 370
+2022-03-18 00:32:28,407 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getUpdates?offset=37839246&timeout=20 HTTP/1.1" 200 370
+2022-03-18 00:32:32,040 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getUpdates?offset=37839247&timeout=20 HTTP/1.1" 200 462
+2022-03-18 00:32:39,036 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getUpdates?offset=37839248&timeout=20 HTTP/1.1" 200 406
+2022-03-18 00:32:43,375 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getUpdates?offset=37839249&timeout=20 HTTP/1.1" 200 723
+2022-03-18 00:33:03,417 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getUpdates?offset=37839250&timeout=20 HTTP/1.1" 200 23
+2022-03-18 00:33:19,368 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getUpdates?offset=37839250&timeout=20 HTTP/1.1" 200 568
+2022-03-18 00:33:19,412 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getUpdates?offset=37839251&timeout=20 HTTP/1.1" 200 533
+2022-03-18 00:33:19,465 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getMe HTTP/1.1" 200 206
+2022-03-18 00:33:19,504 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getMe HTTP/1.1" 200 206
+2022-03-18 00:33:19,599 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getMe HTTP/1.1" 200 206
+2022-03-18 00:33:19,641 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getMe HTTP/1.1" 200 206
+2022-03-18 00:33:21,033 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getMe HTTP/1.1" 200 206
+2022-03-18 00:33:31,456 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getUpdates?offset=37839252&timeout=20 HTTP/1.1" 200 568
+2022-03-18 00:33:31,497 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getUpdates?offset=37839253&timeout=20 HTTP/1.1" 200 648
+2022-03-18 00:33:31,543 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "POST /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/deleteMessage?chat_id=-737826631&message_id=207 HTTP/1.1" 400 96
+2022-03-18 00:33:31,584 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getMe HTTP/1.1" 200 206
+2022-03-18 00:33:31,685 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "POST /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/sendMessage?chat_id=-737826631&text=Hi%21+Don%27t+forget+to+make+me+an+admin%21 HTTP/1.1" 200 305
+2022-03-18 00:33:58,880 [__main__] [WARNI]  Chat id is not set.
+2022-03-18 00:33:58,887 [urllib3.connectionpool] [DEBUG]  Starting new HTTPS connection (1): api.telegram.org:443
+2022-03-18 00:34:06,728 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getUpdates?offset=1&timeout=20 HTTP/1.1" 200 568
+2022-03-18 00:34:06,766 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getUpdates?offset=37839255&timeout=20 HTTP/1.1" 200 533
+2022-03-18 00:34:06,771 [urllib3.connectionpool] [DEBUG]  Starting new HTTPS connection (1): api.telegram.org:443
+2022-03-18 00:34:06,896 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getMe HTTP/1.1" 200 206
+2022-03-18 00:34:15,362 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getUpdates?offset=37839256&timeout=20 HTTP/1.1" 200 568
+2022-03-18 00:34:15,399 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getUpdates?offset=37839257&timeout=20 HTTP/1.1" 200 648
+2022-03-18 00:34:15,440 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "POST /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/deleteMessage?chat_id=-737826631&message_id=210 HTTP/1.1" 400 96
+2022-03-18 00:34:15,478 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getMe HTTP/1.1" 200 206
+2022-03-18 00:34:15,561 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "POST /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/sendMessage?chat_id=-737826631&text=Hi%21+Don%27t+forget+to+make+me+an+admin%21 HTTP/1.1" 200 305
+2022-03-18 00:34:15,621 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "POST /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/sendMessage?chat_id=-737826631&text=Also+get+chat+id+from+%2Fget_id%2C+set+it+in+.env+and+restart+the+bot. HTTP/1.1" 200 393
+2022-03-18 00:34:18,791 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getUpdates?offset=37839258&timeout=20 HTTP/1.1" 200 392
+2022-03-18 00:34:18,796 [urllib3.connectionpool] [DEBUG]  Starting new HTTPS connection (1): api.telegram.org:443
+2022-03-18 00:34:19,032 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "POST /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/sendMessage?chat_id=-737826631&text=Chat+id%3A+-737826631 HTTP/1.1" 200 287
+2022-03-18 00:34:51,181 [urllib3.connectionpool] [DEBUG]  Starting new HTTPS connection (1): api.telegram.org:443
+2022-03-18 00:34:54,864 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getUpdates?offset=1&timeout=20 HTTP/1.1" 200 568
+2022-03-18 00:34:54,903 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getUpdates?offset=37839260&timeout=20 HTTP/1.1" 200 533
+2022-03-18 00:34:54,910 [urllib3.connectionpool] [DEBUG]  Starting new HTTPS connection (1): api.telegram.org:443
+2022-03-18 00:34:55,034 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getMe HTTP/1.1" 200 206
+2022-03-18 00:35:00,946 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getUpdates?offset=37839261&timeout=20 HTTP/1.1" 200 568
+2022-03-18 00:35:00,986 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getUpdates?offset=37839262&timeout=20 HTTP/1.1" 200 648
+2022-03-18 00:35:01,026 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "POST /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/deleteMessage?chat_id=-737826631&message_id=216 HTTP/1.1" 400 96
+2022-03-18 00:35:01,063 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getMe HTTP/1.1" 200 206
+2022-03-18 00:35:01,117 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "POST /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/sendMessage?chat_id=-737826631&text=Hi%21+Don%27t+forget+to+make+me+an+admin%21 HTTP/1.1" 200 305
+2022-03-18 00:35:09,775 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getUpdates?offset=37839263&timeout=20 HTTP/1.1" 200 827
+2022-03-18 00:35:15,069 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getUpdates?offset=37839264&timeout=20 HTTP/1.1" 200 521
+2022-03-18 00:35:15,111 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getMe HTTP/1.1" 200 206
+2022-03-18 00:35:15,159 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "POST /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/deleteMessage?chat_id=-737826631&message_id=218 HTTP/1.1" 200 25
+2022-03-18 00:35:21,040 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getUpdates?offset=37839265&timeout=20 HTTP/1.1" 200 630
+2022-03-18 00:35:21,090 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "POST /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/deleteMessage?chat_id=-737826631&message_id=219 HTTP/1.1" 200 25
+2022-03-18 00:35:24,673 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getUpdates?offset=37839266&timeout=20 HTTP/1.1" 200 369
+2022-03-18 00:35:44,713 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getUpdates?offset=37839267&timeout=20 HTTP/1.1" 200 23
+2022-03-18 00:35:48,119 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getUpdates?offset=37839267&timeout=20 HTTP/1.1" 200 381
+2022-03-18 00:35:48,125 [urllib3.connectionpool] [DEBUG]  Starting new HTTPS connection (1): api.telegram.org:443
+2022-03-18 00:35:48,281 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "POST /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/sendMessage?chat_id=-737826631&text=Chat+id%3A+-737826631 HTTP/1.1" 200 287
+2022-03-18 00:36:04,588 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getUpdates?offset=37839268&timeout=20 HTTP/1.1" 200 444
+2022-03-18 00:36:09,863 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getUpdates?offset=37839269&timeout=20 HTTP/1.1" 200 394
+2022-03-18 00:36:24,845 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getUpdates?offset=37839270&timeout=20 HTTP/1.1" 200 321
+2022-03-18 00:36:25,474 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getUpdates?offset=37839271&timeout=20 HTTP/1.1" 200 315
+2022-03-18 00:36:28,429 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getUpdates?offset=37839272&timeout=20 HTTP/1.1" 200 351
+2022-03-18 00:36:48,468 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getUpdates?offset=37839273&timeout=20 HTTP/1.1" 200 23
+2022-03-18 00:37:05,525 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getUpdates?offset=37839273&timeout=20 HTTP/1.1" 200 472
+2022-03-18 00:37:25,567 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getUpdates?offset=37839274&timeout=20 HTTP/1.1" 200 23
+2022-03-18 00:37:45,607 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getUpdates?offset=37839274&timeout=20 HTTP/1.1" 200 23
+2022-03-18 00:38:05,644 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getUpdates?offset=37839274&timeout=20 HTTP/1.1" 200 23
+2022-03-18 00:38:25,683 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getUpdates?offset=37839274&timeout=20 HTTP/1.1" 200 23
+2022-03-18 00:38:45,722 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getUpdates?offset=37839274&timeout=20 HTTP/1.1" 200 23
+2022-03-18 00:39:05,759 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getUpdates?offset=37839274&timeout=20 HTTP/1.1" 200 23
+2022-03-18 00:39:25,797 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getUpdates?offset=37839274&timeout=20 HTTP/1.1" 200 23
+2022-03-18 00:39:45,841 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getUpdates?offset=37839274&timeout=20 HTTP/1.1" 200 23
+2022-03-18 00:40:05,881 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getUpdates?offset=37839274&timeout=20 HTTP/1.1" 200 23
+2022-03-18 00:40:25,920 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getUpdates?offset=37839274&timeout=20 HTTP/1.1" 200 23
+2022-03-18 00:40:45,958 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getUpdates?offset=37839274&timeout=20 HTTP/1.1" 200 23
+2022-03-18 00:41:06,048 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getUpdates?offset=37839274&timeout=20 HTTP/1.1" 200 23
+2022-03-18 00:41:26,089 [urllib3.connectionpool] [DEBUG]  https://api.telegram.org:443 "GET /bot5116330330:AAHLYLMPBi6oMB3jnGsB2_oZVocMiBAObeo/getUpdates?offset=37839274&timeout=20 HTTP/1.1" 200 23
+2022-03-18 00:41:26,096 [TeleBot] [ERROR]  Infinity polling exception: Could not find a suitable TLS CA certificate bundle, invalid path: C:\Users\Kirill.Brusinets\PycharmProjects\tg\tg_bot\tg_bot\venv\lib\site-packages\certifi\cacert.pem
+2022-03-18 00:41:26,099 [TeleBot] [ERROR]  Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\Kirill.Brusinets\PycharmProjects\tg\tg_bot\tg_bot\venv\lib\site-packages\telebot\__init__.py", line 611, in infinity_polling
+    self.polling(none_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\Kirill.Brusinets\PycharmProjects\tg\tg_bot\tg_bot\venv\lib\site-packages\telebot\__init__.py", line 658, in polling
+    self.__threaded_polling(non_stop, interval, timeout, long_polling_timeout, allowed_updates)
+  File "C:\Users\Kirill.Brusinets\PycharmProjects\tg\tg_bot\tg_bot\venv\lib\site-packages\telebot\__init__.py", line 720, in __threaded_polling
+    raise e
+  File "C:\Users\Kirill.Brusinets\PycharmProjects\tg\tg_bot\tg_bot\venv\lib\site-packages\telebot\__init__.py", line 679, in __threaded_polling
+    polling_thread.raise_exceptions()
+  File "C:\Users\Kirill.Brusinets\PycharmProjects\tg\tg_bot\tg_bot\venv\lib\site-packages\telebot\util.py", line 105, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\Kirill.Brusinets\PycharmProjects\tg\tg_bot\tg_bot\venv\lib\site-packages\telebot\util.py", line 87, in run
+    task(*args, **kwargs)
+  File "C:\Users\Kirill.Brusinets\PycharmProjects\tg\tg_bot\tg_bot\venv\lib\site-packages\telebot\__init__.py", line 407, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1),
+  File "C:\Users\Kirill.Brusinets\PycharmProjects\tg\tg_bot\tg_bot\venv\lib\site-packages\telebot\__init__.py", line 387, in get_updates
+    json_updates = apihelper.get_updates(self.token, offset, limit, timeout, allowed_updates, long_polling_timeout)
+  File "C:\Users\Kirill.Brusinets\PycharmProjects\tg\tg_bot\tg_bot\venv\lib\site-packages\telebot\apihelper.py", line 328, in get_updates
+    return _make_request(token, method_url, params=payload)
+  File "C:\Users\Kirill.Brusinets\PycharmProjects\tg\tg_bot\tg_bot\venv\lib\site-packages\telebot\apihelper.py", line 152, in _make_request
+    result = _get_req_session().request(
+  File "C:\Users\Kirill.Brusinets\PycharmProjects\tg\tg_bot\tg_bot\venv\lib\site-packages\requests\sessions.py", line 529, in request
+  File "C:\Users\Kirill.Brusinets\PycharmProjects\tg\tg_bot\tg_bot\venv\lib\site-packages\requests\sessions.py", line 645, in send
+  File "C:\Users\Kirill.Brusinets\PycharmProjects\tg\tg_bot\tg_bot\venv\lib\site-packages\requests\adapters.py", line 417, in send
+  File "C:\Users\Kirill.Brusinets\PycharmProjects\tg\tg_bot\tg_bot\venv\lib\site-packages\requests\adapters.py", line 228, in cert_verify
+OSError: Could not find a suitable TLS CA certificate bundle, invalid path: C:\Users\Kirill.Brusinets\PycharmProjects\tg\tg_bot\tg_bot\venv\lib\site-packages\certifi\cacert.pem
+
+2022-03-18 00:41:29,105 [TeleBot] [ERROR]  Infinity polling exception: Could not find a suitable TLS CA certificate bundle, invalid path: C:\Users\Kirill.Brusinets\PycharmProjects\tg\tg_bot\tg_bot\venv\lib\site-packages\certifi\cacert.pem
+2022-03-18 00:41:29,107 [TeleBot] [ERROR]  Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\Kirill.Brusinets\PycharmProjects\tg\tg_bot\tg_bot\venv\lib\site-packages\telebot\__init__.py", line 611, in infinity_polling
+  File "C:\Users\Kirill.Brusinets\PycharmProjects\tg\tg_bot\tg_bot\venv\lib\site-packages\telebot\__init__.py", line 658, in polling
+  File "C:\Users\Kirill.Brusinets\PycharmProjects\tg\tg_bot\tg_bot\venv\lib\site-packages\telebot\__init__.py", line 720, in __threaded_polling
+  File "C:\Users\Kirill.Brusinets\PycharmProjects\tg\tg_bot\tg_bot\venv\lib\site-packages\telebot\__init__.py", line 679, in __threaded_polling
+  File "C:\Users\Kirill.Brusinets\PycharmProjects\tg\tg_bot\tg_bot\venv\lib\site-packages\telebot\util.py", line 105, in raise_exceptions
+  File "C:\Users\Kirill.Brusinets\PycharmProjects\tg\tg_bot\tg_bot\venv\lib\site-packages\telebot\util.py", line 87, in run
+  File "C:\Users\Kirill.Brusinets\PycharmProjects\tg\tg_bot\tg_bot\venv\lib\site-packages\telebot\__init__.py", line 407, in __retrieve_updates
+  File "C:\Users\Kirill.Brusinets\PycharmProjects\tg\tg_bot\tg_bot\venv\lib\site-packages\telebot\__init__.py", line 387, in get_updates
+  File "C:\Users\Kirill.Brusinets\PycharmProjects\tg\tg_bot\tg_bot\venv\lib\site-packages\telebot\apihelper.py", line 328, in get_updates
+  File "C:\Users\Kirill.Brusinets\PycharmProjects\tg\tg_bot\tg_bot\venv\lib\site-packages\telebot\apihelper.py", line 152, in _make_request
+  File "C:\Users\Kirill.Brusinets\PycharmProjects\tg\tg_bot\tg_bot\venv\lib\site-packages\requests\sessions.py", line 529, in request
+  File "C:\Users\Kirill.Brusinets\PycharmProjects\tg\tg_bot\tg_bot\venv\lib\site-packages\requests\sessions.py", line 645, in send
+  File "C:\Users\Kirill.Brusinets\PycharmProjects\tg\tg_bot\tg_bot\venv\lib\site-packages\requests\adapters.py", line 417, in send
+  File "C:\Users\Kirill.Brusinets\PycharmProjects\tg\tg_bot\tg_bot\venv\lib\site-packages\requests\adapters.py", line 228, in cert_verify
+OSError: Could not find a suitable TLS CA certificate bundle, invalid path: C:\Users\Kirill.Brusinets\PycharmProjects\tg\tg_bot\tg_bot\venv\lib\site-packages\certifi\cacert.pem
+
+2022-03-18 00:41:32,112 [TeleBot] [ERROR]  Infinity polling exception: Could not find a suitable TLS CA certificate bundle, invalid path: C:\Users\Kirill.Brusinets\PycharmProjects\tg\tg_bot\tg_bot\venv\lib\site-packages\certifi\cacert.pem
+2022-03-18 00:41:32,114 [TeleBot] [ERROR]  Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\Kirill.Brusinets\PycharmProjects\tg\tg_bot\tg_bot\venv\lib\site-packages\telebot\__init__.py", line 611, in infinity_polling
+  File "C:\Users\Kirill.Brusinets\PycharmProjects\tg\tg_bot\tg_bot\venv\lib\site-packages\telebot\__init__.py", line 658, in polling
+  File "C:\Users\Kirill.Brusinets\PycharmProjects\tg\tg_bot\tg_bot\venv\lib\site-packages\telebot\__init__.py", line 720, in __threaded_polling
+  File "C:\Users\Kirill.Brusinets\PycharmProjects\tg\tg_bot\tg_bot\venv\lib\site-packages\telebot\__init__.py", line 679, in __threaded_polling
+  File "C:\Users\Kirill.Brusinets\PycharmProjects\tg\tg_bot\tg_bot\venv\lib\site-packages\telebot\util.py", line 105, in raise_exceptions
+  File "C:\Users\Kirill.Brusinets\PycharmProjects\tg\tg_bot\tg_bot\venv\lib\site-packages\telebot\util.py", line 87, in run
+  File "C:\Users\Kirill.Brusinets\PycharmProjects\tg\tg_bot\tg_bot\venv\lib\site-packages\telebot\__init__.py", line 407, in __retrieve_updates
+  File "C:\Users\Kirill.Brusinets\PycharmProjects\tg\tg_bot\tg_bot\venv\lib\site-packages\telebot\__init__.py", line 387, in get_updates
+  File "C:\Users\Kirill.Brusinets\PycharmProjects\tg\tg_bot\tg_bot\venv\lib\site-packages\telebot\apihelper.py", line 328, in get_updates
+  File "C:\Users\Kirill.Brusinets\PycharmProjects\tg\tg_bot\tg_bot\venv\lib\site-packages\telebot\apihelper.py", line 152, in _make_request
+  File "C:\Users\Kirill.Brusinets\PycharmProjects\tg\tg_bot\tg_bot\venv\lib\site-packages\requests\sessions.py", line 529, in request
+  File "C:\Users\Kirill.Brusinets\PycharmProjects\tg\tg_bot\tg_bot\venv\lib\site-packages\requests\sessions.py", line 645, in send
+  File "C:\Users\Kirill.Brusinets\PycharmProjects\tg\tg_bot\tg_bot\venv\lib\site-packages\requests\adapters.py", line 417, in send
+  File "C:\Users\Kirill.Brusinets\PycharmProjects\tg\tg_bot\tg_bot\venv\lib\site-packages\requests\adapters.py", line 228, in cert_verify
+OSError: Could not find a suitable TLS CA certificate bundle, invalid path: C:\Users\Kirill.Brusinets\PycharmProjects\tg\tg_bot\tg_bot\venv\lib\site-packages\certifi\cacert.pem
+
+2022-03-18 00:41:35,120 [TeleBot] [ERROR]  Infinity polling exception: Could not find a suitable TLS CA certificate bundle, invalid path: C:\Users\Kirill.Brusinets\PycharmProjects\tg\tg_bot\tg_bot\venv\lib\site-packages\certifi\cacert.pem
+2022-03-18 00:41:35,122 [TeleBot] [ERROR]  Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\Kirill.Brusinets\PycharmProjects\tg\tg_bot\tg_bot\venv\lib\site-packages\telebot\__init__.py", line 611, in infinity_polling
+  File "C:\Users\Kirill.Brusinets\PycharmProjects\tg\tg_bot\tg_bot\venv\lib\site-packages\telebot\__init__.py", line 658, in polling
+  File "C:\Users\Kirill.Brusinets\PycharmProjects\tg\tg_bot\tg_bot\venv\lib\site-packages\telebot\__init__.py", line 720, in __threaded_polling
+  File "C:\Users\Kirill.Brusinets\PycharmProjects\tg\tg_bot\tg_bot\venv\lib\site-packages\telebot\__init__.py", line 679, in __threaded_polling
+  File "C:\Users\Kirill.Brusinets\PycharmProjects\tg\tg_bot\tg_bot\venv\lib\site-packages\telebot\util.py", line 105, in raise_exceptions
+  File "C:\Users\Kirill.Brusinets\PycharmProjects\tg\tg_bot\tg_bot\venv\lib\site-packages\telebot\util.py", line 87, in run
+  File "C:\Users\Kirill.Brusinets\PycharmProjects\tg\tg_bot\tg_bot\venv\lib\site-packages\telebot\__init__.py", line 407, in __retrieve_updates
+  File "C:\Users\Kirill.Brusinets\PycharmProjects\tg\tg_bot\tg_bot\venv\lib\site-packages\telebot\__init__.py", line 387, in get_updates
+  File "C:\Users\Kirill.Brusinets\PycharmProjects\tg\tg_bot\tg_bot\venv\lib\site-packages\telebot\apihelper.py", line 328, in get_updates
+  File "C:\Users\Kirill.Brusinets\PycharmProjects\tg\tg_bot\tg_bot\venv\lib\site-packages\telebot\apihelper.py", line 152, in _make_request
+  File "C:\Users\Kirill.Brusinets\PycharmProjects\tg\tg_bot\tg_bot\venv\lib\site-packages\requests\sessions.py", line 529, in request
+  File "C:\Users\Kirill.Brusinets\PycharmProjects\tg\tg_bot\tg_bot\venv\lib\site-packages\requests\sessions.py", line 645, in send
+  File "C:\Users\Kirill.Brusinets\PycharmProjects\tg\tg_bot\tg_bot\venv\lib\site-packages\requests\adapters.py", line 417, in send
+  File "C:\Users\Kirill.Brusinets\PycharmProjects\tg\tg_bot\tg_bot\venv\lib\site-packages\requests\adapters.py", line 228, in cert_verify
+OSError: Could not find a suitable TLS CA certificate bundle, invalid path: C:\Users\Kirill.Brusinets\PycharmProjects\tg\tg_bot\tg_bot\venv\lib\site-packages\certifi\cacert.pem
+
+2022-03-18 00:41:38,136 [TeleBot] [ERROR]  Infinity polling exception: Could not find a suitable TLS CA certificate bundle, invalid path: C:\Users\Kirill.Brusinets\PycharmProjects\tg\tg_bot\tg_bot\venv\lib\site-packages\certifi\cacert.pem
+2022-03-18 00:41:38,140 [TeleBot] [ERROR]  Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\Kirill.Brusinets\PycharmProjects\tg\tg_bot\tg_bot\venv\lib\site-packages\telebot\__init__.py", line 611, in infinity_polling
+  File "C:\Users\Kirill.Brusinets\PycharmProjects\tg\tg_bot\tg_bot\venv\lib\site-packages\telebot\__init__.py", line 658, in polling
+  File "C:\Users\Kirill.Brusinets\PycharmProjects\tg\tg_bot\tg_bot\venv\lib\site-packages\telebot\__init__.py", line 720, in __threaded_polling
+  File "C:\Users\Kirill.Brusinets\PycharmProjects\tg\tg_bot\tg_bot\venv\lib\site-packages\telebot\__init__.py", line 679, in __threaded_polling
+  File "C:\Users\Kirill.Brusinets\PycharmProjects\tg\tg_bot\tg_bot\venv\lib\site-packages\telebot\util.py", line 105, in raise_exceptions
+  File "C:\Users\Kirill.Brusinets\PycharmProjects\tg\tg_bot\tg_bot\venv\lib\site-packages\telebot\util.py", line 87, in run
+  File "C:\Users\Kirill.Brusinets\PycharmProjects\tg\tg_bot\tg_bot\venv\lib\site-packages\telebot\__init__.py", line 407, in __retrieve_updates
+  File "C:\Users\Kirill.Brusinets\PycharmProjects\tg\tg_bot\tg_bot\venv\lib\site-packages\telebot\__init__.py", line 387, in get_updates
+  File "C:\Users\Kirill.Brusinets\PycharmProjects\tg\tg_bot\tg_bot\venv\lib\site-packages\telebot\apihelper.py", line 328, in get_updates
+  File "C:\Users\Kirill.Brusinets\PycharmProjects\tg\tg_bot\tg_bot\venv\lib\site-packages\telebot\apihelper.py", line 152, in _make_request
+  File "C:\Users\Kirill.Brusinets\PycharmProjects\tg\tg_bot\tg_bot\venv\lib\site-packages\requests\sessions.py", line 529, in request
+  File "C:\Users\Kirill.Brusinets\PycharmProjects\tg\tg_bot\tg_bot\venv\lib\site-packages\requests\sessions.py", line 645, in send
+  File "C:\Users\Kirill.Brusinets\PycharmProjects\tg\tg_bot\tg_bot\venv\lib\site-packages\requests\adapters.py", line 417, in send
+  File "C:\Users\Kirill.Brusinets\PycharmProjects\tg\tg_bot\tg_bot\venv\lib\site-packages\requests\adapters.py", line 228, in cert_verify
+OSError: Could not find a suitable TLS CA certificate bundle, invalid path: C:\Users\Kirill.Brusinets\PycharmProjects\tg\tg_bot\tg_bot\venv\lib\site-packages\certifi\cacert.pem
+
+2022-03-18 00:41:41,152 [TeleBot] [ERROR]  Infinity polling exception: Could not find a suitable TLS CA certificate bundle, invalid path: C:\Users\Kirill.Brusinets\PycharmProjects\tg\tg_bot\tg_bot\venv\lib\site-packages\certifi\cacert.pem
+2022-03-18 00:41:41,156 [TeleBot] [ERROR]  Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\Kirill.Brusinets\PycharmProjects\tg\tg_bot\tg_bot\venv\lib\site-packages\telebot\__init__.py", line 611, in infinity_polling
+  File "C:\Users\Kirill.Brusinets\PycharmProjects\tg\tg_bot\tg_bot\venv\lib\site-packages\telebot\__init__.py", line 658, in polling
+  File "C:\Users\Kirill.Brusinets\PycharmProjects\tg\tg_bot\tg_bot\venv\lib\site-packages\telebot\__init__.py", line 720, in __threaded_polling
+  File "C:\Users\Kirill.Brusinets\PycharmProjects\tg\tg_bot\tg_bot\venv\lib\site-packages\telebot\__init__.py", line 679, in __threaded_polling
+  File "C:\Users\Kirill.Brusinets\PycharmProjects\tg\tg_bot\tg_bot\venv\lib\site-packages\telebot\util.py", line 105, in raise_exceptions
+  File "C:\Users\Kirill.Brusinets\PycharmProjects\tg\tg_bot\tg_bot\venv\lib\site-packages\telebot\util.py", line 87, in run
+  File "C:\Users\Kirill.Brusinets\PycharmProjects\tg\tg_bot\tg_bot\venv\lib\site-packages\telebot\__init__.py", line 407, in __retrieve_updates
+  File "C:\Users\Kirill.Brusinets\PycharmProjects\tg\tg_bot\tg_bot\venv\lib\site-packages\telebot\__init__.py", line 387, in get_updates
+  File "C:\Users\Kirill.Brusinets\PycharmProjects\tg\tg_bot\tg_bot\venv\lib\site-packages\telebot\apihelper.py", line 328, in get_updates
+  File "C:\Users\Kirill.Brusinets\PycharmProjects\tg\tg_bot\tg_bot\venv\lib\site-packages\telebot\apihelper.py", line 152, in _make_request
+  File "C:\Users\Kirill.Brusinets\PycharmProjects\tg\tg_bot\tg_bot\venv\lib\site-packages\requests\sessions.py", line 529, in request
+  File "C:\Users\Kirill.Brusinets\PycharmProjects\tg\tg_bot\tg_bot\venv\lib\site-packages\requests\sessions.py", line 645, in send
+  File "C:\Users\Kirill.Brusinets\PycharmProjects\tg\tg_bot\tg_bot\venv\lib\site-packages\requests\adapters.py", line 417, in send
+  File "C:\Users\Kirill.Brusinets\PycharmProjects\tg\tg_bot\tg_bot\venv\lib\site-packages\requests\adapters.py", line 228, in cert_verify
+OSError: Could not find a suitable TLS CA certificate bundle, invalid path: C:\Users\Kirill.Brusinets\PycharmProjects\tg\tg_bot\tg_bot\venv\lib\site-packages\certifi\cacert.pem
+
+2022-03-18 00:41:44,189 [TeleBot] [ERROR]  Infinity polling exception: Could not find a suitable TLS CA certificate bundle, invalid path: C:\Users\Kirill.Brusinets\PycharmProjects\tg\tg_bot\tg_bot\venv\lib\site-packages\certifi\cacert.pem
+2022-03-18 00:41:44,194 [TeleBot] [ERROR]  Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\Kirill.Brusinets\PycharmProjects\tg\tg_bot\tg_bot\venv\lib\site-packages\telebot\__init__.py", line 611, in infinity_polling
+  File "C:\Users\Kirill.Brusinets\PycharmProjects\tg\tg_bot\tg_bot\venv\lib\site-packages\telebot\__init__.py", line 658, in polling
+  File "C:\Users\Kirill.Brusinets\PycharmProjects\tg\tg_bot\tg_bot\venv\lib\site-packages\telebot\__init__.py", line 720, in __threaded_polling
+  File "C:\Users\Kirill.Brusinets\PycharmProjects\tg\tg_bot\tg_bot\venv\lib\site-packages\telebot\__init__.py", line 679, in __threaded_polling
+  File "C:\Users\Kirill.Brusinets\PycharmProjects\tg\tg_bot\tg_bot\venv\lib\site-packages\telebot\util.py", line 105, in raise_exceptions
+  File "C:\Users\Kirill.Brusinets\PycharmProjects\tg\tg_bot\tg_bot\venv\lib\site-packages\telebot\util.py", line 87, in run
+  File "C:\Users\Kirill.Brusinets\PycharmProjects\tg\tg_bot\tg_bot\venv\lib\site-packages\telebot\__init__.py", line 407, in __retrieve_updates
+  File "C:\Users\Kirill.Brusinets\PycharmProjects\tg\tg_bot\tg_bot\venv\lib\site-packages\telebot\__init__.py", line 387, in get_updates
+  File "C:\Users\Kirill.Brusinets\PycharmProjects\tg\tg_bot\tg_bot\venv\lib\site-packages\telebot\apihelper.py", line 328, in get_updates
+  File "C:\Users\Kirill.Brusinets\PycharmProjects\tg\tg_bot\tg_bot\venv\lib\site-packages\telebot\apihelper.py", line 152, in _make_request
+  File "C:\Users\Kirill.Brusinets\PycharmProjects\tg\tg_bot\tg_bot\venv\lib\site-packages\requests\sessions.py", line 529, in request
+  File "C:\Users\Kirill.Brusinets\PycharmProjects\tg\tg_bot\tg_bot\venv\lib\site-packages\requests\sessions.py", line 645, in send
+  File "C:\Users\Kirill.Brusinets\PycharmProjects\tg\tg_bot\tg_bot\venv\lib\site-packages\requests\adapters.py", line 417, in send
+  File "C:\Users\Kirill.Brusinets\PycharmProjects\tg\tg_bot\tg_bot\venv\lib\site-packages\requests\adapters.py", line 228, in cert_verify
+OSError: Could not find a suitable TLS CA certificate bundle, invalid path: C:\Users\Kirill.Brusinets\PycharmProjects\tg\tg_bot\tg_bot\venv\lib\site-packages\certifi\cacert.pem
+

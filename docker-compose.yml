@@ -1,0 +1,71 @@
+version: '3'
+
+services:
+  django:
+    build:
+      context: .
+      dockerfile: Dockerfile-django
+    command: >
+      sh -c "until pg_isready -h $DB_HOST; do echo 'Database not accepting connections. Waiting 5 sec.'; sleep 5; done && 
+             python manage.py runserver 0.0.0.0:8000"
+    ports:
+      - 8000:8000
+    environment:
+    - DB_USER=${DB_USER}
+    - DB_PASS=${DB_PASS}
+    - DB_HOST=${DB_HOST}
+    - DB_NAME=${DB_NAME}
+    - SCHEMA_NAME=${SCHEMA_NAME}
+    depends_on:
+      - postgres
+  postgres:
+    container_name: postgres
+    restart: unless-stopped
+    image: postgres:13.1
+    ports:
+    - 5432:5432
+    environment:
+    - POSTGRES_USER=${DB_USER}
+    - POSTGRES_PASSWORD=${DB_PASS}
+    - POSTGRES_DB=${DB_NAME}
+    - PGDATA=/data/postgres
+    volumes: 
+      - db:/var/lib/postgresql/data
+      - ./backups:/data/backups
+  db_backuper:
+    build:
+      context: .
+      dockerfile: Dockerfile-backuper
+      args:
+      - POSTGRES_USER=${DB_USER}
+      - PGPASSWORD=${DB_PASS}
+    environment:
+    - POSTGRES_USER=${DB_USER}
+    - PGPASSWORD=${DB_PASS}
+    volumes:
+      - ./backups:/data/backups
+    depends_on:
+      - postgres
+  tg_bot:
+    build:
+      context: .
+      dockerfile: Dockerfile-tg_bot
+    command: >
+      sh -c "until pg_isready -h $DB_HOST; do echo 'Database not accepting connections. Waiting 5 sec.'; sleep 5; done &&
+             python main.py"
+    depends_on:
+      - postgres
+    volumes:
+      - ./logs:/tmp/logs
+    environment:
+    - DB_USER=${DB_USER}
+    - DB_PASS=${DB_PASS}
+    - DB_HOST=${DB_HOST}
+    - DB_NAME=${DB_NAME}
+    - SCHEMA_NAME=${SCHEMA_NAME}
+    - BOT_TOKEN=${BOT_TOKEN}
+    - CHAT_ID=${CHAT_ID}
+
+volumes:
+  db:
+    driver: local

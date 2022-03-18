@@ -1,0 +1,15 @@
+FROM postgres:13.1
+
+ARG POSTGRES_USER
+
+ARG PGPASSWORD
+
+RUN apt update && apt -y install cron
+
+RUN touch /var/spool/cron/crontabs/root
+
+RUN grep "/usr/lib/postgresql/13/bin/pg_dumpall -c -U $POSTGRES_USER -h postgres -f /data/backups/dump_" /var/spool/cron/crontabs/root || echo "0  0  *  *  0 PGPASSWORD=\"$PGPASSWORD\" /usr/lib/postgresql/13/bin/pg_dumpall -c -U $POSTGRES_USER -h postgres -f /data/backups/dump_\`date \"+\\%Y-\\%m-\\%d_\\%H_\\%M_\\%S\"\`.sql >> /data/backups/cron.log 2>&1" >> /var/spool/cron/crontabs/root
+
+RUN crontab -u root /var/spool/cron/crontabs/root
+
+ENTRYPOINT cron -f
