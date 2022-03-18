@@ -1,5 +1,7 @@
 # it_evacuation_tg_bot
 
+This bot removes join/left messages and monitors chat members amount by requesting it each day, storing and representing with plot.
+
 1. Create your bot through [Botfather](https://core.telegram.org/bots#6-botfather) and acquire bot token. **Don't forget to give bot the rights to read chat messages with ```/setprivacy```**.
 2. Fill in .env. If you don't know your chat id, leave CHAT_ID field blank.
 3. Run ```docker-compose up -d```
@@ -14,5 +16,5 @@ Chat members amount is requested each day. To look at plot, go to ```*your serve
 
 ![Example](example.png)
 
-Db is backuped each week. Backups are stored in ```backups``` folder in your local project folder.
+Db is being backuped each week. Backups are stored in ```backups``` folder in your local project folder.
 ```logs``` folder will have telegram bot logs.
